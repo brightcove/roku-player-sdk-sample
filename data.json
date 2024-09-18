@@ -1,0 +1,264 @@
+{
+    "sdkUrl": "pkg:/libs/roku-sdk.pkg",
+    "content": {
+        "brightcove": {
+            "title": "Brightcove",
+            "content": [
+                {
+                    "title": "Simple Video",
+                    "screen": "bcSamples",
+                    "data": { 
+                        "type": "vod",
+                        "asset": "6359199597112",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "Multi-audio track Video", 
+                    "screen": "bcSamples",        
+                    "data": { 
+                        "type": "vod",            
+                        "asset": "6361829409112",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                { 
+                    "title": "HEVC Video + thumbnails", 
+                    "screen": "bcSamples",
+                    "data": { 
+                        "type": "vod",
+                        "asset": "6361831702112",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "CSAI Video",
+                    "screen": "bcSamples",
+                    "data": {
+                        "type": "csai_vod",
+                        "asset": "6359200085112",
+                        "adConfig": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator=",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "SSAI Video",
+                    "screen": "bcSamples",
+                    "data": { 
+                        "type": "ssai_vod",
+                        "asset": "6359199597112", 
+                        "adConfig": "87c7829d-474d-4891-88ae-e1ae40398e14",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "Live Stream",
+                    "screen": "bcSamples",
+                    "data": {
+                        "type": "live",
+                        "asset": "6362103188112",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "CSAI Live Stream",
+                    "screen": "bcSamples",
+                    "data": {
+                        "type": "csai_live",
+                        "asset": "6362103188112",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg",
+                        "adConfig": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator="
+                    }
+                },
+                { 
+                    "title": "Playlist",
+                    "screen": "bcSamples",
+                    "data": { 
+                        "type": "playlist",
+                        "asset": "1810369602723366283",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "SSAI Playlist",
+                    "screen": "bcSamples",
+                    "data": { 
+                        "type": "ssai_playlist",
+                        "asset": "1810369602723366283",
+                        "adConfig": "87c7829d-474d-4891-88ae-e1ae40398e14",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "CSAI Playlist",
+                    "screen": "bcSamples",
+                    "data": { 
+                        "type": "csai_playlist",  
+                        "asset": "1810369602723366283",
+                        "adConfig": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator=",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "Related Playlist",
+                    "screen": "bcSamples",
+                    "data": { 
+                        "type": "related",
+                        "asset": "6359199597112",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "Video Search Playlist",
+                    "screen": "bcSamples",
+                    "data": { 
+                        "type": "search",
+                        "asset": "biking",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "Details Screen Sample",
+                    "screen": "DetailsSample",
+                    "data": { 
+                        "type": "details",
+                        "asset": "6360424194112",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                },
+                {
+                    "title": "bcAPI Video Load",
+                    "screen": "bcSamples",
+                    "data": { 
+                        "type": "bcapi_load",
+                        "asset": "6359199597112",
+                        "accountID": "5660549789001",
+                        "policyKey": "BCpkADawqM3i1X_bXPsWFBgPNfdUvHdGHsDjMFI6lXED1R2-fnFgBhWx8LdVIyfz_p5z01rl7J3W75uHV-opONUG0tu2ZxlMq4wiAgbzWWYE5kvp_ShkvPDz-uaKRSjzZDednhOFyHJdKxjnAgi60OrUexd64e7ybxi8K2w3RgPUc5DkWWUYImvikfg"
+                    }
+                }
+            ]
+        },
+        "custom": {
+            "title": "Custom",
+            "content": [
+                {
+                    "title": "Simple Video",
+                    "screen": "customSamples",
+                    "data": { 
+                        "type": "basic",
+                        "metadata": {
+                            "id": "simpleVideo",
+                            "Url": "https://cdn.theoplayer.com/video/elephants-dream/playlist.m3u8",
+                            "StreamFormat": "hls",
+                            "Length": 653
+                        }
+                    }
+                },
+                {
+                    "title": "Multi-codec Video",
+                    "screen": "customSamples",
+                    "data": {
+                        "type": "basic",
+                        "metadata": {
+                            "id": "multiCodecVideo",
+                            "Url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_adv_example_hevc/master.m3u8",
+                            "StreamFormat": "hls",
+                            "Length": 599
+                        }
+                    }
+                },
+                {
+                    "title": "Dolby Video",
+                    "screen": "customSamples",
+                    "data": {
+                        "type": "basic",
+                        "metadata": {
+                            "id": "dolbyVideo",
+                            "Url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/adv_dv_atmos/main.m3u8",
+                            "StreamFormat": "hls",
+                            "Length": 98
+                        }
+                    }
+                },
+                {
+                    "title": "Live Stream",
+                    "screen": "customSamples",
+                    "data": {
+                        "type": "basic",
+                        "metadata": {
+                            "id": "liveStream",
+                            "Url": "https://bcovlive-a.akamaihd.net/6fea50af85de49e3b952a4f99c8ca82e/us-west-2/6415680110001/playlist.m3u8",
+                            "StreamFormat": "hls",
+                            "Live": true,
+                            "Playstart": 9999999
+                        }
+                    }
+                },
+                {
+                    "title": "CSAI Video",
+                    "screen": "customSamples",
+                    "data": {
+                        "type": "basic_csai",
+                        "metadata": {
+                            "id": "csaiVideo",
+                            "Url": "https://cdn.theoplayer.com/video/elephants-dream/playlist.m3u8",
+                            "StreamFormat": "hls",
+                            "Length": 653,
+                            "adsData": {
+                                "type": "csai",
+                                "vmap": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator="
+                            }
+                        }
+                    }
+                },
+                {
+                    "title": "Playlist",
+                    "screen": "customSamples",
+                    "data": {
+                        "type": "playlist",
+                        "metadata": [
+                            {
+                                "id": "hlsVideo",
+                                "Title": "Elephants Dream",
+                                "Url": "https://cdn.theoplayer.com/video/elephants-dream/playlist.m3u8",
+                                "StreamFormat": "hls",
+                                "Length": 653
+                            },
+                            { 
+                                "id": "csaiVideo",
+                                "Title": "Elephants Dream with CSAI",
+                                "Url": "https://cdn.theoplayer.com/video/elephants-dream/playlist.m3u8",
+                                "StreamFormat": "hls",
+                                "Length": 653,
+                                "adsData": {
+                                    "type": "csai",
+                                    "vmap": "https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/vmap_ad_samples&sz=640x480&cust_params=sample_ar%3Dpremidpostpod&ciu_szs=300x250&gdfp_req=1&ad_rule=1&output=vmap&unviewed_position_start=1&env=vp&impl=s&cmsid=496&vid=short_onecue&correlator="
+                                } 
+                            },
+                            { 
+                                "id": "mp4Video",
+                                "Title": "Roku@Twitch",
+                                "Url": "http://roku.content.video.llnw.net/smedia/59021fabe3b645968e382ac726cd6c7b/Gb/siCt-V7LOSU08W_Ve1ByJY5N9emKZeXZvnrH2Yb9c/117_segment_2_twitch__nw_060515.mp4",
+                                "StreamFormat": "mp4",
+                                "Length": 53
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

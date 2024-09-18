@@ -1,0 +1,14 @@
+<component name="MenuItem" extends="Group">
+    <interface>
+        <field id="itemContent" type="node" />
+        <field id="width" type="float"/>
+        <field id="height" type="float"/>
+        <field id="active" type="boolean"/>
+        <field id="rowIndex" type="integer"/>
+    </interface>
+    <script type="text/brightscript" uri="MenuItem.brs" />
+    <children>
+        <Rectangle id="background" />
+        <Label id="label" horizAlign="center" vertAlign="center"/>
+    </children>
+</component>

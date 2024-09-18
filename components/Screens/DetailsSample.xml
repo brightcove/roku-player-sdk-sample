@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="DetailsSample" extends="Group">
+    <interface>
+        <field id="data" type="assocarray" />
+        <field id="close" type="boolean" />
+    </interface>
+    <script type="text/brightscript" uri="DetailsSample.brs"/>
+    <children>
+        
+        <Poster id="poster" width="1920" height="1080" />
+        <Rectangle id="background" color="#000000" width="1920" height="1080" />
+
+        <LayoutGroup layoutDirection="vert" translation="[96, 54]" itemSpacings="[54, 24]" >
+
+            <LayoutGroup layoutDirection="horiz" itemSpacings="[54]">
+                <Poster id="thumbnail" width="720" height="480" />
+                <LabelList id="buttons" vertFocusAnimationStyle="floatingFocus" />
+            </LayoutGroup>
+
+            <Label id="title" font="font:LargeBoldSystemFont" width="1728" />
+            <Label id="duration" width="1728" />
+            <Label id="description" width="1728" />
+            
+        </LayoutGroup>
+
+    </children>
+</component>

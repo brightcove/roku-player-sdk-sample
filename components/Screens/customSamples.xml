@@ -1,0 +1,7 @@
+<component name="customSamples" extends="group">
+    <interface>
+        <field id="data" type="assocarray"/>
+        <field id="close" type="boolean"/>
+    </interface>
+    <script type="text/brightscript" uri="customSamples.brs" />
+</component>

@@ -1,0 +1,28 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "cleanup",
+            "detail": "Deletes the existing 'libs' directory",
+            "type": "shell",
+            "hide": true,
+            "command": "rm -rf libs || true",
+            "windows": {
+                "command": "rmdir libs /s /q || echo 0"
+            }
+        },
+        {
+            "label": "setup",
+            "detail": "Downloads the latest version of the Roku SDK package into the 'libs' directory",
+            "type": "shell",
+            "dependsOrder": "sequence",
+            "dependsOn": ["cleanup"],
+            "command": "curl --create-dirs -o libs/roku-sdk.pkg https://players.brightcove.net/roku-sdk/latest/roku-sdk.pkg",
+            "windows": {
+                "command": "curl --create-dirs -o libs\\roku-sdk.pkg https://players.brightcove.net/roku-sdk/latest/roku-sdk.pkg"
+            }
+        }
+    ]
+}

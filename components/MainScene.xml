@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene">
+  
+    <interface>
+        <field id="utils" type="node" />
+        <!-- <field id="accountID" type="string" />
+        <field id="policyKey" type="string" /> -->
+        <function name="showSelectScreen"/>
+        <function name="showVideo" />
+    </interface>
+  
+    <script type="text/brightscript" uri="MainScene.brs"/>
+  
+    <children>
+    
+        <!--  The ComponentLibrary node will handle the package file download and loading process automatically. -->
+        <ComponentLibrary id="bcLib" /> 
+
+        <Rectangle id="header" >
+            <Poster id="logo" />
+        </Rectangle>
+
+        <RowList id="menuBar" focusable="true" />
+
+        <TrackerTask/>
+
+    </children>
+
+</component>
