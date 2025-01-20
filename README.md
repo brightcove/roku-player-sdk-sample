@@ -74,3 +74,9 @@ It's also possible to create new screen components to implement custom use-cases
 
 - `data` (assocarray) - receives the `data` value provided in the sample object when the menu button is selected. This field should be observed within the component to retrieve the information and parse/handle it as needed.
 - `close` (boolean) - set it to true within the component to close the screen (the MainScene will remove it from the tree list)
+
+## Versioning
+
+The `main` branch should only be used with the most recent Roku SDK package release as it contains the latest feature samples. But if there's the need to test previous Roku SDK releases, it's possible to checkout the Sample App to a specific Roku SDK release version through the available tags. These tags name reflect the exact same Roku SDK release versions. 
+
+Please make sure that the Roku SDK release version and the Sample App tag match to avoid incompatibility issues when running the Sample App.

@@ -225,6 +225,38 @@
                     }
                 },
                 {
+                    "title": "IMA DAI Video",
+                    "screen": "customSamples",
+                    "data": {
+                        "type": "basic_imadai",
+                        "metadata": {
+                            "Title": "Tears of Steel",
+                            "adsData": {
+                                "type": "imadai",
+                                "videoID": "tos-dash",
+                                "cmsID": "2559737",
+                                "format": "dash"
+                            }
+                        }
+                    }
+                },
+                {
+                    "title": "IMA DAI Live",
+                    "screen": "customSamples",
+                    "data": {
+                        "type": "basic_imadai",
+                        "metadata": {
+                            "Title": "Big Buck Bunny",
+                            "PlayStart": 9999999,
+                            "adsData": {
+                                "type": "imadai",
+                                "assetKey": "PSzZMzAkSXCmlJOWDmRj8Q",
+                                "format": "dash"
+                            }
+                        }
+                    }
+                },
+                {
                     "title": "Playlist",
                     "screen": "customSamples",
                     "data": {

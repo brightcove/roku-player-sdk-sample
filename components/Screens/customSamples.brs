@@ -81,6 +81,33 @@ sub onData(ev)
         ' load the video metadata using the "loadCustom" bcPlayer function and start playback
         m.bcPlayer.callFunc("loadCustom", metadata)
 
+    else if data.type = "basic_imadai" then
+
+        ' ------------------------------------------------
+        ' Google IMA DAI  video playback
+        ' ------------------------------------------------
+
+        ' make sure we have a valid metadata object
+        metadata = data.metadata
+        if NOT m.scene.utils.callFunc("isAA", metadata) then return
+
+        ' Setup the bcPlayer configuration fields.
+        m.bcPlayer.setFields({
+            width: 1920,
+            height: 1080,
+            logLevel: 4,
+            retryOnError: false
+        })
+
+        m.bcPlayer.imadai.enabled = true ' Enable Google IMA DAI video playback in the bcPlayer node
+        m.bcPlayer.imadai.observeField("event", "onIMADAIEvent") ' setup the CSAI event observer to capture CSAI specific events
+
+        ' add the bcPlayer node to the screen node tree list
+        m.top.appendChild(m.bcPlayer)
+
+        ' load the video metadata using the "loadCustom" bcPlayer function and start playback
+        m.bcPlayer.callFunc("loadCustom", metadata)
+
     else if data.type = "playlist" then
 
         ' ------------------------------------------------
@@ -129,6 +156,14 @@ sub onCSAIEvent(ev)
 
 end sub
 
+' Handles Google IMA DAI specific events
+sub onIMADAIEvent(ev)
+
+    data = ev.getData()
+
+    print "[customSamples] onIMADAIEvent() data: " data
+
+end sub
 
 ' handles the bcPlayer close event
 ' we should close the screen when the bcPlayer node is closed
@@ -139,6 +174,7 @@ sub onClose(ev)
     ' clean up the bcPlayer observers and other objects before closing the screen
     m.bcPlayer.csai.unobserveField("event")
     m.bcPlayer.ssai.unobserveField("event")
+    m.bcPlayer.imadai.unobserveField("event")
     m.bcPlayer.on.unobserveField("close")
     m.top.removeChild(m.bcPlayer)
     m.bcPlayer = invalid

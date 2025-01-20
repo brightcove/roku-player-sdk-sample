@@ -434,6 +434,26 @@ sub onSSAIEvent(ev)
 
     print "[bcSamples] onSSAIEvent() data: " data
 
+    if data.event = "raf-podstart" then
+
+        ' retrieve the ad break ContentNode which contains the ad break details through the playback getAdbreak() function
+        adBreak = m.bcPlayer.playback.callFunc("getAdbreak")
+        print "[bcSamples] onSSAIEvent() raf-podstart adBreak: " adBreak
+
+    else if data.event = "raf-impression" then
+
+        ' retrieve the ad ContentNode which contains the ad details through the playback getAd() function.
+        ad = m.bcPlayer.playback.callFunc("getAd")
+        print "[bcSamples] onSSAIEvent() raf-impression ad: " ad
+        
+        ' if the Ad ContentNode is available, the ad break ContentNode can also be easily accessed
+        if ad <> invalid then 
+            adBreak = ad.getParent()
+            print "[bcSamples] onSSAIEvent() raf-impression adBreak: " adBreak
+        end if
+
+    end if
+
 end sub
 
 ' Handles CSAI specific events
